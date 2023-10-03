@@ -47,7 +47,7 @@
         <a class="btn btn-ghost normal-case text-xl text-gray-100 font-bold">
 
             {{-- image from public iamges --}}
-            <img src="/storage/images/logo.png" alt="logo" width="50px" height="50px">
+            <img src="{{ asset('storage/images/logo.png') }}" alt="logo" width="50px" height="50px">
         </a>
       </div>
       <div class="navbar-center hidden lg:flex">
